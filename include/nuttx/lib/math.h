@@ -185,6 +185,9 @@ double      rint(double x);
 long double rintl(long double x); /* Not implemented */
 #endif
 
+float       fmaxf(float x, float y);
+float       fminf(float x, float y);
+
 float       fabsf (float x);
 #ifdef CONFIG_HAVE_DOUBLE
 double      fabs  (double x);

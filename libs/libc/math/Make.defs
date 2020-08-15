@@ -38,7 +38,7 @@ ifeq ($(CONFIG_LIBM),y)
 # Add the floating point math C files to the build
 
 CSRCS += lib_acosf.c lib_asinf.c lib_atan2f.c lib_atanf.c lib_cosf.c
-CSRCS += lib_coshf.c  lib_expf.c lib_fabsf.c lib_fmodf.c lib_frexpf.c
+CSRCS += lib_coshf.c  lib_expf.c lib_fabsf.c lib_fmodf.c lib_frexpf.c lib_fmaxminf.c
 CSRCS += lib_ldexpf.c lib_logf.c lib_log10f.c lib_log2f.c lib_modff.c
 CSRCS += lib_powf.c lib_sinf.c lib_sinhf.c lib_sqrtf.c lib_tanf.c
 CSRCS += lib_tanhf.c lib_asinhf.c lib_acoshf.c lib_atanhf.c lib_erff.c
